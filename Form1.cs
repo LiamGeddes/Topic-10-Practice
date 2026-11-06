@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Topic_10_Practice
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void imgMario_Click(object sender, EventArgs e)
+        {
+            imgMario.Image = Properties.Resources.MarioAwake;
+        }
+
+        private void imgMarioSleep_Click(object sender, EventArgs e)
+        {
+            imgMario.Image = Properties.Resources.MarioAsleep;
+        }
+    }
+}
