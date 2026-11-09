@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\unnamed %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarioMad.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angry-mario.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

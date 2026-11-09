@@ -55,12 +55,14 @@
             this.imgMario.TabIndex = 0;
             this.imgMario.TabStop = false;
             this.imgMario.Click += new System.EventHandler(this.imgMario_Click);
+            this.imgMario.MouseEnter += new System.EventHandler(this.imgMario_MouseEnter);
+            this.imgMario.MouseLeave += new System.EventHandler(this.imgMario_MouseLeave);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(390, 132);
+            this.ClientSize = new System.Drawing.Size(603, 132);
             this.Controls.Add(this.imgMarioSleep1);
             this.Controls.Add(this.imgMario);
             this.Name = "Form1";
